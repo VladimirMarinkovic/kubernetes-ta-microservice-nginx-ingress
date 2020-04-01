@@ -1,0 +1,48 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: tura-resource-server
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      h2:
+        console:
+          enabled: true
+    cloud:
+      kubernetes:
+        discovery:
+          all-namespaces: true
+
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://auth-service:8080/oauth/check_token
+
+    client:
+      client-id: tura-resource-client
+      client-secret: tura-resource-secret
+      authorized-grant-type: password
+      accessTokenUri: http://auth-service:8080/oauth/token
+
+
+ribbon:
+  ConnectTimeout: 70000
+  ReadTimeout: 70000
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 6000
+        readTimeout: 6000
+  hystrix:
+    enabled: true
+
+
+
+
+
+
