@@ -12,11 +12,11 @@ This project is based on project (https://github.com/VladimirMarinkovic/travel-a
 
 **Ingress deployment** - kubectl apply -f ingress.yaml
 
-**Rbac deployment** - kubectl apply -f rbac.yml .
+**Rbac deployment** - kubectl apply -f rbac.yml 
+
 
 
 
 #Images of project:
-
 1.Architecture
 ![Architecture](https://github.com/VladimirMarinkovic/kubernetes-ta-microservice-nginx-ingress/blob/master/tura-resource-server/src/main/resources/images/TravelAgency-nginx-ingress.jpg)
