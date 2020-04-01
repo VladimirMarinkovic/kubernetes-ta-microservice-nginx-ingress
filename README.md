@@ -1,4 +1,4 @@
-# Kubernetes-TravelAgency-Microservice-NginX-Ingress
+# Kubernetes-TravelAgency-Microservice-NGINX-Ingress
 
 This project is based on project (https://github.com/VladimirMarinkovic/travel-agency-microservice) and configured for kubernetes deployment.
 
