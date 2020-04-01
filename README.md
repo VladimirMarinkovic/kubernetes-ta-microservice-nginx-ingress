@@ -8,7 +8,7 @@ This project is based on project (https://github.com/VladimirMarinkovic/travel-a
 
 * **Auth Service deployment** - kubectl apply -f auth-deployment.yaml
 
-* **Tura,Putnici,Vozaci Server deployment** - kubectl apply -f tura-deployment.yaml,putnici-deployment.yaml,vozaci-deployment.yaml 
+* **Tura, Putnici, Vozaci Server deployment** - kubectl apply -f tura-deployment.yaml,putnici-deployment.yaml,vozaci-deployment.yaml 
 
 * **Ingress deployment** - kubectl apply -f ingress.yaml
 
